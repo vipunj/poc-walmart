@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'poc-walmart'
           slot-name: 'Production'
-          package: 'poc-walmart.jar'
+          package: 'poc-walmart/poc-walmart.jar'
           
