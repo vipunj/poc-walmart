@@ -44,6 +44,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: poc-walmart
+          path: '${{ github.workspace }}/target/poc-walmart.jar'
+
       
       - name: Login to Azure
         uses: azure/login@v1
