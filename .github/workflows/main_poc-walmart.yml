@@ -66,4 +66,5 @@ jobs:
           app-name: 'poc-walmart'
           slot-name: 'Production'
           package: 'poc-walmart-0.0.1-SNAPSHOT.jar'
+          path: '${{ github.workspace }}/artifacts/drop'
           
